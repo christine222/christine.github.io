@@ -28,6 +28,11 @@ body {
 
   position: relative;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 
 
 }
@@ -37,8 +42,9 @@ body {
 }
 
 #greeting {
+
   font-family: "Shrikhand";
-  font-size: 80px;
+  font-size: 50px;
   letter-spacing: 5px;
   text-align: center;
   color: white;
@@ -67,27 +73,65 @@ body {
   height: 50vh;
   background-color: black;
   position: relative;
-  display: table-row;
-  vertical-align: middle;
+
+  list-style: none;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
-#about-text {
+.padding-container {
+  
+  background-color: white;
+}
+
+.text-container {
+  size: cover;
   min-width: 25%;
-  width: 25%;
+  width: auto;
+  height: auto;
   max-width: 50%;
-  padding: 0 0 0 50%;
+}
+
+.parent {
+  background-color: black;
+  position: relative;
+}
+
+.item {
+  size: cover;
+
+  min-width: 25%;
+  width: auto;
+  height: auto;
+  max-width: 45%;
+  
+  background: blue;
+  color: white;
+  line-height: 50px;
+  
+}
+
+.parent {
+  display: flex;
+  height: 200px;
 
 }
+
+
+
+
 
 #head {
-  position: absolute;
   size: cover;
   max-width: 25%;
   width: auto;
   height: auto;
-  padding-left: 20%;
-  margin: auto;
- 
 }
 
 
@@ -107,8 +151,10 @@ body {
   color: grey;
 }
 .text-left{
-  
   text-align: left;
+}
+.text-right{
+  text-align: right;
 }
 
 

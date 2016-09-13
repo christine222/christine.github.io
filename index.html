@@ -6,11 +6,12 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:200|Shrikhand|Unica+One" rel="stylesheet" type='text/css'>
 
- 
+
+    <link rel="stylesheet" href="fog.css">
+    <link href="index.css" rel="stylesheet"/>
 
 
 
-    <link href="index.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js" type="text/javascript"></script>
     <title>Christine Chen</title>
     <meta name=”description” content="A portfolio of fun things.">
@@ -21,7 +22,20 @@
     <div class="page">
 
       
-        <div id="title-box">
+        <div class="fog-wrapper" id="title-box">
+          
+          <div id="foglayer_01" class="fog">
+           <div class="image01"></div>
+           <div class="image02"></div>
+          </div>
+          <div id="foglayer_02" class="fog">
+           <div class="image01"></div>
+           <div class="image02"></div>
+          </div>  
+          <div id="foglayer_03" class="fog">
+           <div class="image01"></div>
+           <div class="image02"></div>
+          </div>
           <h1 id="greeting">Hello, my name is</h1>
           <h1 id="home">Christine Chen</h1>
         </div>
@@ -31,13 +45,26 @@
       
       <div class="about-container">
 
-        <img src="assets/myhead.jpg" id="head"/>
+        <div class="padding-container">
+          <img src="assets/myhead.jpg" class="text-container"/>
 
-        <div id="about-text">
-          <h1 class="text-left" id="about-title">About Me</h1>
-          <p class="text-left text-primary" id="about-para">I'm a sophomore studying electrical engineering at UCLA. My passions include drawing, coding, and ultimate frisbee. Growing up in the bay area, I was immersed in STEM and began tinkering from a young age. From building a clock in middle school to coding an app in college, the ability to create is something I hold dear in my heart.</p>
+          <div class="text-container">
+            <h1 class="text-left text-container" id="about-title">About Me</h1>
+            <p class="text-left text-primary" id="about-para">I'm a sophomore studying electrical engineering at UCLA. My passions include drawing, coding, and ultimate frisbee. Growing up in the bay area, I was immersed in STEM and began tinkering from a young age. From building a clock in middle school to coding an app in college, the ability to create is something I hold dear in my heart.</p>
+          </div>
         </div>
 
+      </div>
+
+
+      <div class="example">
+        <div class="example-content">
+
+          <div class="parent">
+            <div class="item text-right"><img src="assets/myhead.jpg" class="text-container"/></div>
+            <p class="item text-left text-primary">I'm a sophomore studying electrical engineering at UCLA. My passions include drawing, coding, and ultimate frisbee. Growing up in the bay area, I was immersed in STEM and began tinkering from a young age. From building a clock in middle school to coding an app in college, the ability to create is something I hold dear in my heart.</p>
+          </div>
+        </div>
 
       </div>    
 
