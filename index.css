@@ -13,6 +13,8 @@ body {
 
 }
 
+
+/*front landing page thingy*/
 #title-box {
 
   background-image: url("assets/cloud.jpg");
@@ -59,7 +61,7 @@ body {
 }
 
 
-
+/*
 .about-container {
   padding: 15% 0 15% 0;
   height: 50vh;
@@ -76,9 +78,21 @@ body {
   flex-flow: row wrap;
   justify-content: space-around;
 }
+*/
+
+.about {
+  padding: 05% 15% 15% 15%;
+  text-align: center;
+}
+.mypic {
+  padding: 15% 0 0 0;
+  text-align: center;
+  width: auto;
+  height: auto;
+  size: cover;
+}
 
 .padding-container {
-  
   background-color: white;
 }
 
@@ -110,8 +124,8 @@ body {
 
 .text-primary{
   font-family: Raleway;
-  font-weight: 200;
-  font-size: 1em;
+  font-weight: 600;
+  font-size: 1.2em;
   color: grey;
 }
 .text-left{
