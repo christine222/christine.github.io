@@ -20,13 +20,13 @@ var gf_content = [
   [  // row
     { // block
       //title: "The Rainbow Machine",
-      //link: "https://github.com/christinecha/gridfolio",
+      link: "skittle.html",
       imageURL: "assets/skittlemachine.jpg",
       keywords: ["The Rainbow Machine", "Spring 2016", "EE3"]
     },
     { // block
       //title: "Natbus",
-      //link: "https://github.com/christinecha/gridfolio",
+      link: "natbus.html",
       imageURL: "assets/natbus.jpg",
       keywords: ["Natbus", "Spring 2016", "IEEE OPS"]
     },
@@ -42,7 +42,7 @@ var gf_content = [
   [ // row
     { // block
       title: "Download my resume!",
-      //link: "https://github.com/christinecha/gridfolio",
+      link: "ChristineChenResume.pdf",
       imageURL: "",
       customHeight: true,
       style: {
