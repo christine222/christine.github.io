@@ -26,7 +26,7 @@ var gf_content = [
     },
     { // block
       //title: "Natbus",
-      link: "natbus.html",
+      //link: "natbus.html",
       imageURL: "assets/natbus.jpg",
       keywords: ["Natbus", "Spring 2016", "IEEE OPS"]
     },
