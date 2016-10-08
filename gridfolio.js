@@ -20,7 +20,7 @@ var gf_content = [
   [  // row
     { // block
       //title: "The Rainbow Machine",
-      link: "skittle.html",
+      //link: "skittle.html",
       imageURL: "assets/skittlemachine.jpg",
       keywords: ["The Rainbow Machine", "Spring 2016", "EE3"]
     },
