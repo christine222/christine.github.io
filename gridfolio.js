@@ -39,6 +39,44 @@ var gf_content = [
     }
   ],
 
+  [
+    {
+      title: "The Rainbow Machine is a skittle sorter powered by an Arduino Uno. Through a phototransistor and flashing rgb led, the Arduino can take data and determine what color the skittle is. Two servos are used to help dispense and sort the skittles.",
+      customHeight: true, 
+      style:{
+        backgroundColor: "#f1f1f2",
+        height: "150px",
+        fontSize: "11px",
+        color: "black",
+        letterSpacing: "0.5px"
+      }
+
+    },
+    {
+      title: "Natbus is a line-following car powered by a Teensy LC. Movement of the car is controlled using PID and two infrared sensors attached to the front. Skills involved are PCB design and soldering.",
+      customHeight: true, 
+      style:{
+        backgroundColor: "#f1f1f2",
+        height: "150px",
+        fontSize: "11px",
+        color: "black",
+        letterSpacing: "0.5px"
+      }
+
+    },
+    {
+      title: "C Air is a project in which a device samples the current air environment. My contribution to this project is an iOS app that allows wireless control of the device as well as display of collected data.",
+      customHeight: true,
+      style:{
+        backgroundColor: "#f1f1f2",
+        height: "150px",
+        fontSize: "11px",
+        color: "black",
+        letterSpacing: "0.5px"
+      }
+    }
+  ],
+
   [ // row
     { // block
       title: "Download my resume!",
@@ -52,7 +90,7 @@ var gf_content = [
         fontSize: "10px",
         letterSpacing: "0.5px"
       }
-    },
+    }
   ]
 
 ]
