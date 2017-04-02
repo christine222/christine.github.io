@@ -4,65 +4,197 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:200|Shrikhand|Unica+One" rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:200,400|Shrikhand|Unica+One" rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:200" rel="stylesheet">
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-
-
-    <link rel="stylesheet" href="fog.css">
     <link href="index.css" rel="stylesheet"/>
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js" type="text/javascript"></script>
     <title>Christine Chen</title>
     <meta name=”description” content="A portfolio of fun things.">
   </head>
 
   <body>
 
-    <div class="page">
+    <div class="row project container-fluid titleArea">
 
+     
       
-        <div class="fog-wrapper" id="title-box">
-          
-          <div id="foglayer_01" class="fog">
-           <div class="image01"></div>
-           <div class="image02"></div>
-          </div>
-          <div id="foglayer_02" class="fog">
-           <div class="image01"></div>
-           <div class="image02"></div>
-          </div>  
-          <div id="foglayer_03" class="fog">
-           <div class="image01"></div>
-           <div class="image02"></div>
-          </div>
+
+      <div class="title">
           <h1 id="greeting">Hello, my name is</h1>
           <h1 id="home">Christine Chen</h1>
-        </div>
-
-
-
-
-
-        <div class="mypic" >
-          
-          <img src="assets/mysmallhead.png" />
-        </div>
-
-        <div class="about text-primary">
-          I'm a sophomore studying electrical engineering at UCLA. My passions include drawing, coding, and ultimate frisbee. Growing up in the bay area, I was immersed in STEM and began tinkering from a young age. From building a clock in middle school to coding an app in college, the ability to create is something I hold dear in my heart.
-        </div>
-     
-        <div id="project-title">Projects</div>
-     <div id="gridfolio"></div>
-     <script src="index.js" type="text/javascript"></script>
-
-
+      </div>
 
     </div>
+
+    <div class='row project container-fluid '>
+
+    </div>
+
+
+    <div class='row text-primary'>
+      <h1 class='aboutMeTitle'> ~ About Me ~ </h1>
+    </div>
+
+    <div class='row aboutMe'>
+      <div class='col-sm-4 col-sm-offset-3 text'> I'm a sophomore studying electrical engineering at UCLA. My passions include drawing, coding, and ultimate frisbee. Growing up in the bay area, I was immersed in STEM and began tinkering from a young age. From building a clock in middle school to coding an app in college, the ability to create is something I hold dear in my heart. </div>
+
+      <div class='myHead col-sm-4'>
+      <img src="assets/headcircle.png">
+      </div>
+    </div>
+
+
+    <div class = 'row'>
+
+      <div class = 'col-sm-2 col-sm-offset-1'>
+      </div>
+
+      <div class = 'col-sm-2 col -sm-offset 1'>
+
+      </div>
+
+    </div>
+
+    <!-- <div class='row text-primary'>
+      <h1 class='aboutMeTitle'> ~ Projects ~ </h1>
+    </div> -->
+
+
+    
+<!--     <div class='row buttons'>
+
+      <div class='col-sm-2 col-sm-offset-3'>
+        <button class="button button2">About Me</button>
+      </div>
+
+      <div class='col-sm-2'>
+        <button class="button button2">Projects</button>
+      </div>
+
+
+      <div class='col-sm-2'>
+        <button class="button button2">Resume</button>
+      </div>
+
+    </div> -->
+
+
+
+
+    <div class = 'project container-fluid'>
+
+      <div class='row'>
+        <div class='col-sm-3 col-sm-offset-1 bigboi'>
+          
+          <div class='row navigator'>
+          
+
+
+          <div class='overlay'>
+              <h1 class='projectTitleText'>BruinNav</h1>
+              <div class='date1'>March 2017</div>
+              <div class='projectText1'>
+                A navigator that returns an optimized path to a given destination. Coded through C++. Implemented a prioritized queue to find an optimal path between geo coordinates. Required knowledge of C++ STL, reading/interpreting text files, recursion, and data structures.</div>
+            </div>
+        </div>
+
+          <div class='row cair'>
+            <div class='overlay'>
+              <h1 class='projectTitleText'>CAir</h1>
+              <div class='date'>June - Aug 2016</div>
+              <div class='projectText'>
+                An iOS smart phone app that remotely controls an air sampling device powered by a Raspberry Pi. The app can display previous samples as well as have different functions such as calibration and sampling. Required knowledge of Swift and Python</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class='col-sm-7 micromouse'>
+          <div class='overlay'>
+              <h1 class='projectTitleText'>Micromouse</h1>
+              <div class='date'>Sep 2016 - May 2017</div>
+              <div class='projectText'>
+                An autonomous maze solving car powered by an STM32 MCU. Implemented PID using feedback from encoders and IR sensors. Programmed through C++. Developed a good understanding of hardware components and their uses: voltage regulators, h-bridge motor controllers, n-mosfets, and encoders. Designed schematic and PCB on Eagle as well as surface mounted all the components (mcu, resistors, capacitors, voltage regulators, etc). Pictured is the prototype version w/ through hole components. </div>
+            </div>
+        </div>
+
+      </div>
+
+
+      <div class='row'>
+
+      <div class='col-sm-5 col-sm-offset-1 skittle'>
+        <div class='overlay'>
+              <h1 class='projectTitleText'>Rainbow Machine</h1>
+              <div class='date'>May 2016</div>
+              <div class='projectText'>
+                An autonomous skittle sorting mechanism powered by an Arduino Uno. Sorts skittles based on color by repeatedly flashing an rgb led onto a skittle and using a phototransistor to read the intensity of light reflected off of the skittle. Based on the intensity of light, two servos work in conjunction to sort the skittles into small cups. </div>
+            </div>
+      </div>
+
+      <div class='col-sm-5 bug'>
+        <div class='overlay'>
+              <h1 class='projectTitleText'>Bugs!</h1>
+              <div class='date'>Feb 2017</div>
+              <div class='projectText'>
+                A simulation that allows coded behavior of up to four different ant colonies. The goal of the game is for an ant colony to produce the most number of ants. Designed and implemented the back end of the simulator through C++. Required knowledge on object-oriented programming, class hierarchy, polymorphism, C++ STL, reading/interpreting text files, and data structures.</div>
+            </div>
+      </div>
+      </div>
+
+
+      <div class = 'row'>
+
+        <div class='col-sm-3 col-sm-offset-1 natbus'>
+            <div class='overlay'>
+              <h1 class='projectTitleText'>NatBus</h1>
+              <div class='date'>May 2016</div>
+              <div class='projectText'>An autonomous line following car powered by a Teensy LC mcu. Implemented PID control in Arduino using feedback from IR light sensors.</div>
+
+
+              
+          </div>
+          </div>
+
+        <div class='col-sm-4 lightItUp'>
+          <div class='overlay'>
+              <h1 class='projectTitleText'>Light It Up!</h1>
+              <div class='date'>Feb 2017</div>
+              <div class='projectText'>
+                A simulation that allows coded behavior of up to four different ant colonies. The goal of the game is for an ant colony to produce the most number of ants. Designed and implemented the back end of the simulator through C++. Required knowledge on object-oriented programming, class hierarchy, polymorphism, C++ STL, reading/interpreting text files, and data structures.</div>
+            </div>
+        </div>
+
+        <div class='col-sm-3 lightItUp'>
+          <div class='overlay'>
+              <h1 class='projectTitleText'>Light It Up!</h1>
+              <div class='date'>Feb 2017</div>
+              <div class='projectText'>
+                A simulation that allows coded behavior of up to four different ant colonies. The goal of the game is for an ant colony to produce the most number of ants. Designed and implemented the back end of the simulator through C++. Required knowledge on object-oriented programming, class hierarchy, polymorphism, C++ STL, reading/interpreting text files, and data structures.</div>
+            </div>
+        </div>
+
+        
+
+
+
+        
+
+
+      </div>
+
+    </div>
+
+
+
+
 
 
   </body>
