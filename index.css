@@ -18,8 +18,10 @@ body {
 
 .titleArea {
   height: 100%;
-  background: linear-gradient(rgba(0, 153, 255,0.97), rgba(36, 171, 228,0.17)),  url(assets/city.png) no-repeat bottom;
+  background: linear-gradient(rgba(0, 153, 255,0.97), rgba(36, 171, 228,0.17)),  url(assets/city.png) no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   margin-bottom: 20px;
 }
 
@@ -205,7 +207,7 @@ img {
 .aboutMeTitle {
   height: 40px;
   font-family: "Shrikhand";
-  color: #028ac4;
+  color: #008CBA;
   text-align: center;
 
 }
@@ -226,6 +228,42 @@ img {
   /*box-shadow: 1px 1px 5px rgba(0,0,0,0.3);*/
 
 }
+
+.number {
+  font-size: 6em;
+  font-family: "Dosis";
+  color:#d9fcff;
+  opacity: 0.8;
+}
+
+.subHead {
+  font-size: 1.2em;
+  font-family: "Dosis";
+  color: #00ccff;
+}
+
+.subHeadText {
+  font-size: 0.8em;
+  font-family: "Raleway";
+
+}
+
+.glyphs {
+  height: 200px;
+  background-color: #028ac4;
+  background: url(assets/gradient.png);
+  margin-bottom: 40px;
+  font-family: "Raleway";
+  text-align: center;
+  color: #ddfcff;
+
+
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
 
 .navigator {
   height: 230px;
@@ -307,165 +345,3 @@ font-family: 'Shrikhand', sans-serif;
   color: white;
 }
 
-
-/*
-.about-container {
-  padding: 15% 0 15% 0;
-  height: 50vh;
-  
-  position: relative;
-  list-style: none;
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
-*/
-
-.about {
-  padding: 05% 15% 15% 15%;
-  text-align: center;
-}
-.mypic {
-  padding: 15% 0 0 0;
-  text-align: center;
-  width: auto;
-  height: auto;
-  size: cover;
-}
-
-.padding-container {
-  background-color: white;
-}
-
-.text-container {
-  size: cover;
-  min-width: 25%;
-  width: auto;
-  height: auto;
-  max-width: 50%;
-}
-
-
-#head {
-  size: cover;
-  max-width: 25%;
-  width: auto;
-  height: auto;
-}
-
-
-#about-title {
-  font-size: 30px;
-  color: #545454;
-  letter-spacing: 2px;
-  font-family: "Shrikhand";
-}
-
-
-
-.text-primary{
-  font-family: Raleway;
-  font-weight: 600;
-  font-size: 1.2em;
-  color: grey;
-}
-.text-left{
-  text-align: left;
-}
-.text-right{
-  text-align: right;
-}
-
-.gf-row {
-  width: 100%;
-  font-size: 0;
-}
-
-.gf-block {
-  padding: 10px;
-  box-sizing: border-box;
-  display: inline-block;
-  vertical-align: top;
-  cursor: default;
-}
-
-.gf-block:first-child { padding-left: 20px; }
-.gf-block:last-child { padding-right: 20px; }
-
-.gf-block-1 { width: 100%; }
-.gf-block-2 { width: 50%; }
-.gf-block-3 { width: 33.33%; }
-.gf-block-4 { width: 25%; }
-.gf-block-5 { width: 20%; }
-.gf-block-6 { width: 16.66%; }
-.gf-block-7 { width: 14.285%; }
-.gf-block-8 { width: 12.5%; }
-.gf-block-9 { width: 11.11%; }
-
-.gf-block--inner {
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-
-  font-size: 16px;
-  vertical-align: top;
-  box-sizing: border-box;
-  position: relative;
-}
-
-.gf-block--inner--spacer {
-  height: 100%;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.gf-block--inner--title {
-  display: inline-block;
-  vertical-align: middle;
-  text-align: left;
-  font-size: inherit;
-  max-width: 100%;
-}
-
-
-.gf-block--inner--keyword {
-  display: inline-block;
-}
-
-.gf-block--inner--span {
-  position:absolute; 
-  width:100%;
-  height:100%;
-  top:0;
-  left: 0;
-  z-index: 1;
-}
-
-@media (max-width: 996px) {
-  .gf-block-4 { width: 50%; }
-  .gf-block-4:nth-child(3) { padding-left: 20px; }
-  .gf-block-4:nth-child(2) { padding-right: 20px; }
-  .gf-block-5 { width: 33.33%; }
-  .gf-block-5:nth-child(1) { width: 50%; }
-  .gf-block-5:nth-child(2) { width: 50%; }
-  .gf-block-6 { width: 33.33%; }
-  .gf-block-7 { width: 14.285%; }
-  .gf-block-8 { width: 25%; }
-  .gf-block-8:nth-child(5) { padding-left: 20px; }
-  .gf-block-8:nth-child(4) { padding-right: 20px; }
-  .gf-block-9 { width: 11.11%; }
-}
-
-@media (max-width: 500px) {
-  .gf-block-2,
-  .gf-block-3,
-  .gf-block-4,
-  .gf-block-5 { width: 100%; padding: 10px 20px; }
-}
