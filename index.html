@@ -17,6 +17,29 @@
     <link href="index.css" rel="stylesheet"/>
     <title>Christine Chen</title>
     <meta name=”description” content="A portfolio of fun things.">
+
+
+    <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="icon" sizes="16x16 32x32 64x64" href="assets/favicon/favicon.ico">
+  <link rel="icon" type="image/png" sizes="196x196" href="assets/favicon/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="160x160" href="assets/favicon/favicon-160.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon/favicon-64.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16.png">
+  <link rel="apple-touch-icon" href="assets/favicon/favicon-57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/favicon-114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/favicon-72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/favicon-144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/favicon-60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/favicon-120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/favicon-76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/favicon-152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/favicon-180.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="assets/favicon/favicon-144.png">
+  <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+
   </head>
 
   <body>
@@ -51,7 +74,7 @@
     </div>
 
 
-    <div class = 'row glyphs project'>
+    <div class = 'row glyphs project container-fluid '>
 
 
       <div class = 'col-sm-2 col-sm-offset-2'>
@@ -109,35 +132,33 @@
       <div class='row'>
         <div class='col-sm-3 col-sm-offset-1 bigboi'>
           
+
           <div class='row navigator'>
-          
-
-
-          <div class='overlay'>
-              <h1 class='projectTitleText'>BruinNav</h1>
-              <div class='date1'>March 2017</div>
-              <div class='projectText1'>
-                A navigator that returns an optimized path to a given destination. Coded through C++. Implemented a prioritized queue to find an optimal path between geo coordinates. Required knowledge of C++ STL, reading/interpreting text files, recursion, and data structures.</div>
-            </div>
-        </div>
-
-          <div class='row cair'>
             <div class='overlay'>
-              <h1 class='projectTitleText'>CAir</h1>
-              <div class='date1'>June - Aug 2016</div>
-              <div class='projectText1'>
-                An iOS smart phone app that remotely controls an air sampling device powered by a Raspberry Pi. The app can display previous samples as well as have different functions such as calibration and sampling. Required knowledge of Swift and Python</div>
+              <h1 class='projectTitleText'>BruinNav</h1>
+              <div class='date'>March 2017</div>
+              <div class='projectText'>
+                A navigator that returns an optimized path to a given destination. Coded through C++. Required knowledge of C++ STL, reading/interpreting text files, recursion, and data structures.</div>
             </div>
           </div>
 
-        </div>
+          <div class='row lightItUp'>
+            <div class='overlay'>
+              <h1 class='projectTitleText'>Light It Up!</h1>
+              <div class='date'>Jan 2017</div>
+              <div class='projectText'>
+                Winner of IDEAhacks UCLA hardware hackathon 2017. A sports tech product powered by an Arduino Zero which measures the angular velocity of a spinning frisbee to give feedback of a throw in the form of flashing LEDs.
+                </div>
+              </div>
+            </div>
+          </div>
 
         <div class='col-sm-7 micromouse'>
           <div class='overlay'>
               <h1 class='projectTitleText'>Micromouse</h1>
               <div class='date'>Sep 2016 - May 2017</div>
               <div class='projectText'>
-                An autonomous maze solving car powered by an STM32 MCU. Implemented PID using feedback from encoders and IR sensors. Programmed through C++. Developed a good understanding of hardware components and their uses: voltage regulators, h-bridge motor controllers, n-mosfets, and encoders. Designed schematic and PCB on Eagle as well as surface mounted all the components (mcu, resistors, capacitors, voltage regulators, etc). Pictured is the prototype version w/ through hole components. </div>
+                An autonomous maze solving car powered by an STM32 MCU. Implemented PID using feedback from encoders and IR sensors. Programmed through C++. Developed a good understanding of hardware components and their uses. Designed schematic and PCB on Eagle as well as surface mounted all components. Pictured is the prototype version w/ through hole components. </div>
             </div>
         </div>
 
@@ -146,14 +167,17 @@
 
       <div class='row'>
 
-      <div class='col-sm-5 col-sm-offset-1 skittle'>
-        <div class='overlay'>
-              <h1 class='projectTitleText'>Rainbow Machine</h1>
-              <div class='date'>May 2016</div>
+      
+
+
+      <div class='col-sm-5 col-sm-offset-1 cair'>
+            <div class='overlay'>
+              <h1 class='projectTitleText'>CAir</h1>
+              <div class='date'>June - Aug 2016</div>
               <div class='projectText'>
-                An autonomous skittle sorting mechanism powered by an Arduino Uno. Sorts skittles based on color by repeatedly flashing an rgb led onto a skittle and using a phototransistor to read the intensity of light reflected off of the skittle. Based on the intensity of light, two servos work in conjunction to sort the skittles into small cups. </div>
+                An iOS app that remotely controls an air sampling device powered by a Raspberry Pi. Can display previous samples and control the device. Required knowledge of Swift, Python, and http communication.</div>
             </div>
-      </div>
+          </div>
 
       <div class='col-sm-5 bug'>
         <div class='overlay'>
@@ -168,7 +192,33 @@
 
       <div class = 'row'>
 
-        <div class='col-sm-3 col-sm-offset-1 natbus'>
+      
+
+      
+
+      <div class='col-sm-3 col-sm-offset-1 skittle'>
+        <div class='overlay'>
+              <h1 class='projectTitleText'>Rainbow Machine</h1>
+              <div class='date'>May 2016</div>
+              <div class='projectText'>
+                An skittle sorting mechanism powered by an Arduino Uno. Sorts skittles based on color by repeatedly flashing an rgb led onto a skittle and using a phototransistor to read the intensity of light reflected off of the skittle. Based on the intensity of light, two servos work in conjunction to sort the skittles into small cups. </div>
+            </div>
+      </div>
+
+      <div class='col-sm-4 ops'>
+          <div class='overlay'>
+              <h1 class='projectTitleText'>Open Project Source: IEEE</h1>
+              <div class='date'>Sep 2015 - May 2016</div>
+              <div class='projectText'>
+                Small circuit projects. Pictured left to right: blinking LED with a 555 timer, pair of IR sensors with a Teensy LC mcu, modulating sound (speakers not pictured) with a 555 timer and potentiometer.</div>
+            </div>
+        </div>
+
+      
+
+        
+
+        <div class='col-sm-3 natbus'>
             <div class='overlay'>
               <h1 class='projectTitleText'>NatBus</h1>
               <div class='date'>May 2016</div>
@@ -179,23 +229,9 @@
           </div>
           </div>
 
-        <div class='col-sm-4 lightItUp'>
-          <div class='overlay'>
-              <h1 class='projectTitleText'>Light It Up!</h1>
-              <div class='date'>Feb 2017</div>
-              <div class='projectText'>
-                A simulation that allows coded behavior of up to four different ant colonies. The goal of the game is for an ant colony to produce the most number of ants. Designed and implemented the back end of the simulator through C++. Required knowledge on object-oriented programming, class hierarchy, polymorphism, C++ STL, reading/interpreting text files, and data structures.</div>
-            </div>
-        </div>
+        
 
-        <div class='col-sm-3 lightItUp'>
-          <div class='overlay'>
-              <h1 class='projectTitleText'>Light It Up!</h1>
-              <div class='date'>Feb 2017</div>
-              <div class='projectText'>
-                A simulation that allows coded behavior of up to four different ant colonies. The goal of the game is for an ant colony to produce the most number of ants. Designed and implemented the back end of the simulator through C++. Required knowledge on object-oriented programming, class hierarchy, polymorphism, C++ STL, reading/interpreting text files, and data structures.</div>
-            </div>
-        </div>
+        
 
         
 

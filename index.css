@@ -100,22 +100,28 @@ body {
 }
 
 .natbus:hover .overlay {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .cair:hover .overlay {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .micromouse:hover .overlay {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .skittle:hover .overlay {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .bug:hover .overlay {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .navigator:hover .overlay {
-  opacity: 0.8;
+  opacity: 0.9;
+}
+.lightItUp:hover .overlay {
+  opacity: 0.9;
+}
+.ops:hover .overlay {
+  opacity: 0.9;
 }
 
 .text {
@@ -245,11 +251,11 @@ img {
 .subHeadText {
   font-size: 0.8em;
   font-family: "Raleway";
+  margin-bottom: 20px;
 
 }
 
 .glyphs {
-  height: 200px;
   background-color: #028ac4;
   background: url(assets/gradient.png);
   margin-bottom: 40px;
@@ -272,33 +278,45 @@ img {
   margin-bottom: 20px;
 }
 
-.cair {
+.lightItUp {
   height: 250px;
+  background: url(assets/frisbee.jpg) no-repeat right;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.cair {
+  height: 400px;
   margin-bottom: 20px;
   background: url(assets/cairscreen2.png) center;
   background-size: cover;
+  margin-right: 20px;
 }
 
+
 .skittle {
-  height: 400px;
+  height: 300px;
   background: linear-gradient(rgba(0, 153, 255,0.1), rgba(0, 153, 255,0.1)), url(assets/skittlemachine.jpg) no-repeat center;
   background-size: cover;
   margin-bottom: 20px;
-  margin-right: 20px;
+  margin-right: 10px;
 
 }
 
 
-.lightItUp {
+
+
+.ops {
   height: 300px;
-/*  background: linear-gradient(rgba(0, 153, 255,0.1), rgba(0, 153, 255,0.1)), url(assets/frisbee.jpg) no-repeat right;
-*/  margin-right: 10px;
+  margin-right: 10px;
+  background: url(assets/ops2.jpg) no-repeat center;
   background-size: cover;
+  margin-bottom: 20px;
 }
 
 .bug {
   height: 400px;
-  background: url(assets/buggg.jpg) no-repeat top;
+  background: url(assets/buggg.jpg) no-repeat center;
   background-size: cover;
   margin-bottom: 20px;
 }
